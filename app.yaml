@@ -14,13 +14,6 @@ env_variables:
       mysql+pymysql://root:griffith_cloud_learning@/emotions?unix_socket=/cloudsql/fabled-meridian-387623:australia-southeast1:googlecloudsql
 #[END gae_flex_mysql_env]
 
-automatic_scaling:
-  cool_down_period: 120s
-  min_num_instances: 2
-  max_num_instances: 8
-  # cpu_utilization:
-    # target_utilization: 0.5
-
 #[START gae_flex_mysql_settings]
 # Replace project and instance with the values obtained  when configuring your
 # Cloud SQL instance.
